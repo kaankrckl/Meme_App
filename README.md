@@ -2,40 +2,34 @@
 
 This full-stack Node.js app is designed to allow users to share the memes they like with others.
 ## Getting Started
-To get you started you can simply clone the repository:
 
-```
-git clone https://github.com/FortechRomania/express-mongo-example-project
-```
-and install the dependencies
-```
-npm install
-```
 ### Prerequisites
 
 You will need Node.js and MongoDB.
 
 ### Installation
-This app can be installed using npm either locally or globally.
+To get you started you can simply clone the repository:
 
-To perform a local install:
 ```
-$ git clone <project>
-$ cd <project_folder>
-$ npm install
+git clone https://github.com/kaankrckl/Meme_App.git
+```
+and install the dependencies
+```
+npm install
 ```
 
 #### MongoDB
-The project uses MongoDB as a database. If you are on Mac and using Homebrew package manager the installation is as simple as `brew install mongodb`.
+The project uses MongoDB as a database. (https://www.youtube.com/watch?v=b089GmAvUyQ&feature=youtu.be I have used this tutorial to install and prepare mongodb setup since I am working with c9.)
 
-### Start the MongoDB server
-In your terminal navigate to the `root` of your system by doing `cd ..` until you reach the top directory. Now open a different tab in your terminal and run `./mongod` to start the Mongo server.
-
-Once the dependencies are installed, you can run to start the application. You will then be able to access it at localhost:27017
+Once the dependencies are installed, you can run to start the application.
 ```
 $ node app.js
 ```
-
+## To use all functionality of the application
+ 1. Create an account with a username and password
+ 2. Post a meme with a meme link and description
+ 3. View others memes and comments your thoughts
+ 
 ## User Stories
 
 Without being logged in, user can
