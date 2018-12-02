@@ -19,7 +19,7 @@ npm install
 ```
 
 #### MongoDB
-The project uses MongoDB as a database. (https://www.youtube.com/watch?v=b089GmAvUyQ&feature=youtu.be I have used this tutorial to install and prepare mongodb setup since I am working with c9.)
+The project uses MongoDB as a database. (https://www.youtube.com/watch?v=b089GmAvUyQ&feature=youtu.be I have used this tutorial to install and prepare mongodb setup since I am working with c9 platform.)
 
 Once the dependencies are installed, you can run to start the application.
 ```
