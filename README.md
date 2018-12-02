@@ -25,6 +25,12 @@ $ cd <project_folder>
 $ npm install
 ```
 
+#### MongoDB
+The project uses MongoDB as a database. If you are on Mac and using Homebrew package manager the installation is as simple as `brew install mongodb`.
+
+### Start the MongoDB server
+In your terminal navigate to the `root` of your system by doing `cd ..` until you reach the top directory. Now open a different tab in your terminal and run `./mongod` to start the Mongo server.
+
 Once the dependencies are installed, you can run to start the application. You will then be able to access it at localhost:27017
 ```
 $ node app.js
