@@ -28,7 +28,7 @@ $ node app.js
 ## To use all functionality of the application
  1. Create an account with a username and password
  2. Post a meme with a meme link and description
- 3. View others memes and comments your thoughts
+ 3. View others memes and comment your thoughts
  
 ## User Stories
 
