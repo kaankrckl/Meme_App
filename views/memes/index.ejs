@@ -1,0 +1,57 @@
+<% include ../partials/header %>
+   
+
+
+
+
+<div class="container">
+    
+
+<header class="jumbotron">
+    <div class="container">
+    <h1>Welcome to memes page</h1>
+    <p>View all the memes</p>
+    <p>
+        <a class="btn btn-primary btn-lg" href="/memes/new">Post a new meme</a>
+    </p>
+    </div>
+</header>
+
+<div class="row">
+</div>
+<div class="row text-center" style="display:flex; flex-wrap: wrap;">
+    <!--show each meme in the database-->
+    <% memes.forEach(function(memes){ %>
+
+   <div class="col-md-3 col-sm-6">
+
+       <div class="thumbnail" id="allMemes">
+    <!--this part is to make div clickable-->
+       <a href="/memes/<%= memes._id %>">
+           <span class="link-spanner"></span>
+       </a>
+    <!---->
+       <img src="<%= memes.image %>">   
+       <div class="caption">
+           <h4 id="memeDesc"><%= memes.description %></h4>
+           
+        
+           
+               <i class="material-icons">
+                mode_comment
+               </i>
+                <span id="countComment"><%=memes.comments.length%></span>       
+           
+       </div>
+       </div>
+
+   </div>
+   
+<% }); %>
+
+</div>
+
+
+</div>
+
+<% include ../partials/footer %>
